@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/styles.css"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+    </style>
+    <title>AluraGeek</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./Assets/Logo.svg" alt="Tês corações de pixel art">
+    </header>
+    <main class="conteudo">
+        <section class="conteudo__produtos">
+            <h1 class="conteudo__titulo">Meus Produtos:</h1>
+            <section class="container__produtos-wrapper">
+                <div class="container__produtos" data-lista>
+                    <!--
+                    <div class="conteudo__produtos__card">
+                        <img src="./Assets/colar-vira-tempo-hermione-harry-potter-hermione.jpg" alt="Imagem do produto" class="produtos_card_image">
+                        <div class="protudos__card__info">
+                            <p>Chaveiro de Metal Vira Tempo Harry Potter</p>
+                            <div class="produtos__card__preco">
+                                <p>R$22,00</p>
+                                <img src="./Assets/Vector.png" class="delete-icon">
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </section>
+        </section>
+        <section class="conteudo__formulario">
+            <h1 class="conteudo__titulo">Adicionar Produto:</h1>
+            <form class="formulario__principal" id="formulario" data-formulario>
+                <div class="formulario__principal__campo">
+                    <input name="nome" id="nome" class="campo__escrita" placeholder="Nome do produto..." data-nome/>
+                </div>
+                <div class="formulario__principal__campo">
+                    <input name="valor" id="valor" class="campo__escrita" placeholder="Valor..." data-valor/>
+                </div>
+                <div class="formulario__principal__campo">
+                    <input name="imagem" id="imagem" class="campo__escrita" placeholder="URL da imagem..." data-imagem/>
+                </div>
+                <div class="formulario__botao">
+                    <input type="submit" value="Adicionar" id="guardar">
+                    <input type="reset" value="Limpar" id="limpar">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="rodape__logo">
+            <img src="./Assets/Logo.svg" alt="Tês corações de pixel art">
+        </div>
+        <div>
+            <p class="rodape__texto__1">Desenvolvido por Amanda Zotareli</p>
+            <p class="rodape__texto__2">Alura Latam - 2024</p>
+        </div>
+    </footer>
+    <script type="module" src="./JS/MostrarProduto.js"></script>
+    <script type="module" src="./JS/AdicionarNovoProduto.js"></script>
+    <script type="module" src="./JS/DeletandoProduto.js"></script>
+</body>
+</html>

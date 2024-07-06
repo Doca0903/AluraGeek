@@ -1,0 +1,52 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Chaveiro de Metal Vira Tempo Harry Potter",
+      "valor": "22,00",
+      "imagem": "Assets/colar-vira-tempo-hermione-harry-potter-hermione.jpg"
+    },
+    {
+      "id": "3",
+      "nome": "Chaveiro Pomo de Ouro Harry Potter",
+      "valor": "19,90",
+      "imagem": "Assets/Chaveiro Pomo de Ouro Harry Potter.jpeg"
+    },
+    {
+      "id": "4",
+      "nome": "Chaveiro de Metal Harry Potter Vassoura",
+      "valor": "22,00",
+      "imagem": "Assets/Chaveiro de Metal Harry Potter Vassoura.jpeg"
+    },
+    {
+      "id": "5",
+      "nome": "Chaveiro de Metal Hogwarts Dupla Face Harry Potter",
+      "valor": "22,00",
+      "imagem": "Assets/Chaveiro de Metal Hogwarts Dupla Face Harry Potter.jpeg"
+    },
+    {
+      "id": "6",
+      "nome": "Chaveiro de Metal Harry Potter Reliquia da Morte",
+      "valor": "19,90",
+      "imagem": "Assets/Chaveiro de Metal Harry Potter Reliquia da Morte.jpeg"
+    },
+    {
+      "id": "7",
+      "nome": "Chaveiro Harry Potter Varinha das Varinhas",
+      "valor": "21,90",
+      "imagem": "Assets/Chaveiro Harry Potter Varinha das Varinhas.jpeg"
+    },
+    {
+      "id": "8",
+      "nome": "Chaveiro de Metal Chapeu Seletor Harry Potter",
+      "valor": "19,90",
+      "imagem": "Assets/Chaveiro de Metal Chapeu Seletor Harry Potter.jpeg"
+    },
+    {
+      "id": "9",
+      "nome": "Chaveiro de Metal Lufa Lufa Dupla Face Harry Potter",
+      "valor": "22,00",
+      "imagem": "Assets/Chaveiro de Metal Lufa Lufa Dupla Face Harry Potter.jpg"
+    }
+  ]
+}
